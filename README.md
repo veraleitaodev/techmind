@@ -8,14 +8,17 @@ The idea is to create a fun learning environment aimed at children of any gender
 
 ## User Stories
 
+Site owners’ goal: To create a fun way to learn more about women’s role in tech. 
 
-### Navigation
+User goal: To play a fun game and learn about women in tech. 
 
-
-|   As a	| I want to be able to | So that I can |
-|-----------|----------------------|---------------|
-| Customer | do a thing | get a thing done
-
+- As a user I want to see my current scores while playing the game.
+- As a user I want to be see which question I’m on while playing the game.
+- As a user I want to be able to choose if I want to have the sound off or on while playing the game.
+- As a user I want to know the rules of the game. 
+- As a user I want to be able to see the top scores amongst players. 
+- As a user I want to know if my answer to a question was wrong or right.
+- As a user I want to know my final score after finishing the game.  
 
 ## Wireframes
 
