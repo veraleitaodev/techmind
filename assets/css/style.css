@@ -1,13 +1,15 @@
+
 /*-- colours  (using !important to overwrite bootstrap settings) --*/
 .background-color {
     background-color: #2d1f54 !important;
 }
 
-.text-dark-blue {
-    color: #113E5B !important;
-}
 .dark-blue {
     background-color: #113E5B !important;
+}
+
+.text-dark-blue {
+    color: #113E5B !important;
 }
 
 .background-light-blue {
