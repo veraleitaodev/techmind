@@ -42,7 +42,7 @@ User goal: To play a fun game and learn about women in tech.
 
 ## Colour Scheme
 
-<img height="100" src="https://github.com/markj0hnst0n/techmind/blob/master/assests/images/techmind_colours.png">
+<img height="100" src="https://github.com/markj0hnst0n/techmind/blob/master/assets/images/techmind_colours.png">
 
 ### Features
 
