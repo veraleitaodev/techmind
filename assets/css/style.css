@@ -39,3 +39,20 @@
 .text-yellow {
     color: #FCF170 !important;
 }
+
+/* GAME PLAY*/
+
+
+/* Correct/incoreect classes */
+
+.btn.correct {
+    background-color: #008000;
+    color: #fff;
+}
+
+
+
+.btn.incorrect {
+    background-color: #ff0000;
+    color: #fff;
+}
