@@ -101,7 +101,7 @@ for fonts used in the project.
 ## Content
 
 ## Media
-
+Images were sourced through freepic.com
 
 ## Influences
 
