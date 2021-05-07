@@ -2,7 +2,7 @@
 <h1>Techmind</h1>
 </div>
 
-The idea is to create a fun learning environment aimed at children of any gender aged 4-7 with a focus on those who identify as women’s role in tech.
+The idea is to create a fun learning environment aimed at children of any gender aged 10-13 with a focus on those who identify as women’s role in tech.
 
 # UX
 
@@ -27,13 +27,13 @@ User goal: To play a fun game and learn about women in tech.
 - [Rules page mobile](assets/images/rules-mobile.png "wireframe for Rules page in mobile view");
 - [Rules page desktop](assets/images/rules-desktop.png "wireframe for Rules page in desktop view");
 - [Quiz page mobile](assets/images/quiz-mobile.png "wireframe for Quiz page in mobile view");
-- [Quiz page desktop](assets/images/quiz-desktop.png "wireframe for Quiz page in desktop view");
-- [Fact page mobile](assets/images/fact-mobile.png "wireframe for Fact page in mobile view");
-- [Fact page desktop](assets/images/fact-desktop.png "wireframe for Fact page in desktop view");
-- [Results page mobile](assets/images/results-mobile.png "wireframe for Results page in mobile view");
-- [Results page desktop](assets/images/results-desktop.png "wireframe for Results page in desktop view");
-- [Score page mobile](assets/images/score-mobile.png "wireframe for Scores page in mobile view");
-- [Score page desktop](assets/images/score-desktop.png "wireframe for Scores page in desktop view");
+- [Quiz page desktop](assets/images/quiz-desktop.png "wireframe for Quiz page in desktop view")
+- [Fact page mobile](assets/images/fact-mobile.png "wireframe for Fact page in mobile view")
+- [Fact page desktop](assets/images/fact-desktop.png "wireframe for Fact page in desktop view")
+- [Results page mobile](assets/images/results-mobile.png "wireframe for Results page in mobile view")
+- [Results page desktop](assets/images/results-desktop.png "wireframe for Results page in desktop view")
+- [Score page mobile](assets/images/score-mobile.png "wireframe for Scores page in mobile view")
+- [Score page desktop](assets/images/score-desktop.png "wireframe for Scores page in desktop view")
 
 
 
@@ -41,6 +41,8 @@ User goal: To play a fun game and learn about women in tech.
 ## Fonts
 
 ## Colour Scheme
+
+<img height="100" src="https://github.com/markj0hnst0n/techmind/blob/master/assests/images/techmind_colours.png">
 
 ### Features
 
