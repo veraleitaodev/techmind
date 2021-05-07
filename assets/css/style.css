@@ -1,8 +1,41 @@
+
+/*-- colours  (using !important to overwrite bootstrap settings) --*/
 .background-color {
-    background-color: #2d1f54;
+    background-color: #2d1f54 !important;
 }
 
 .dark-blue {
-    background-color: #113E5B;
+    background-color: #113E5B !important;
 }
 
+.text-dark-blue {
+    color: #113E5B !important;
+}
+
+.background-light-blue {
+    background-color: #CBECF8 !important;
+}
+
+.text-light-blue {
+    color: #CBECF8 !important;
+}
+
+.text-purple {
+    color: #2d1f54 !important;
+}
+
+.background-blue {
+    background-color: #4595BD !important;
+}
+
+.text-blue {
+    color: #4595BD !important;
+}
+
+.background-yellow {
+    background-color: #FCF170 !important;
+}
+
+.text-yellow {
+    color: #FCF170 !important;
+}
