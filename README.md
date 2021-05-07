@@ -30,7 +30,7 @@ User goal: To play a fun game and learn about women in tech.
 - [Quiz page desktop](assets/images/quiz-desktop.png "wireframe for Quiz page in desktop view");
 - [Fact page mobile](assets/images/fact-mobile.png "wireframe for Fact page in mobile view");
 - [Fact page desktop](assets/images/fact-desktop.png "wireframe for Fact page in desktop view");
-- [Results page mobile](assets/images/Results-mobile.png "wireframe for Results page in mobile view");
+- [Results page mobile](assets/images/results-mobile.png "wireframe for Results page in mobile view");
 - [Results page desktop](assets/images/results-desktop.png "wireframe for Results page in desktop view");
 - [Score page mobile](assets/images/score-mobile.png "wireframe for Scores page in mobile view");
 - [Score page desktop](assets/images/score-desktop.png "wireframe for Scores page in desktop view");
