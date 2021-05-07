@@ -1,0 +1,58 @@
+[
+    {
+        "question": "Women played a key role in government code breaking efforts during World War 2 specifically at Bletchley Park helping to break the Enigma code and potentially turning the tide of the war.  What percentage of the workforce at Bletchley Park were female?",
+        "correct": 2,
+        "ans1": "half",
+        "ans2": "Three quarters",
+        "ans3": "a quarter"
+    },
+    {
+        "question": "In 1757 female ’Human Computer’ Nicole-Reine Etable de la Brière Lepaute successfully helped to predict date on which a famous comet would be visible from earth.  Can you name the Comet?",
+        "correct": 1,
+        "ans1": "Halley’s Comet",
+        "ans2": "Enke’s Comet",
+        "ans3": "Biela’s Comet"
+    },
+    {
+        "question": "In 1945 ENIAC was completed.  It was the first programmable, electronic general purpose computer and it’s 6 primary programmers were all female.  What does ENIAC stand for?",
+        "correct": 1,
+        "ans1": "Electronic Numerical Integrator and Computer",
+        "ans2": "Electro Number Indexer and Computer",
+        "ans3": "Electronic Numerical Integer Adding Computer"
+    },
+    {
+        "question": "In America computers were used for space travel calculations by NASA.  What does NASA stand for?",
+        "correct": 3,
+        "ans1": "North American Space Association",
+        "ans2": "North American Space Agency",
+        "ans3": "National Aeronautics and Space Administration"
+    },
+    {
+        "question": "The Great Firewall is an internet regulation system in place in which Asian Country?",
+        "correct": 2,
+        "ans1": "Cambodia",
+        "ans2": "China",
+        "ans3": "Japan"
+    },
+    {
+        "question": "Ada Lovelace wrote the first algorithm designed for implementation on a computer in 1842.  Which poet was her father?",
+        "correct": 1,
+        "ans1": "Byron",
+        "ans2": "Shelley",
+        "ans3": "Heaney"
+    },
+    {
+        "question": "Ire Aderinokun is Nigeria’s first female developer to work at which large tech company?",
+        "correct": 2,
+        "ans1": "Facebook",
+        "ans2": "Google",
+        "ans3": "Twitter"
+    },
+    {
+        "question": "In the early 1980s Susan Kare worked with Steve Jobs to create icons at which computer company?",
+        "correct": 2,
+        "ans1": "Microsoft",
+        "ans2": "IBM",
+        "ans3": "Apple"
+    }
+]
