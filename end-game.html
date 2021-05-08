@@ -9,6 +9,26 @@
     <link rel="icon" href="assets/images/favicon.png">
 </head>
 <body>
-    
+    <div class="game-over container">
+        <h1 id="end-heading">Game Over</h1>
+        <h3 id="end-score">Final Score : 0</h3>
+        <p id="name-inst">Enter your name below to join the score board:</p>
+        <form class="row justify-content-center">
+            <input type="text" name="username" id="username" placeholder="Your Name!" required>
+            <input type="submit" class="btn submit-btn" id="save-high-score" onclick="saveHighScore(event)" value="Save" disabled>
+        </form>
+        <div class="navigation-buttons row justify-content-center">
+            <div class="col-md-3 col-sm-12">
+                <a href="rules.html" class="btn navigation-btn">Rules</a>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <a href="quiz.html" class="btn navigation-btn">Replay</a>
+            </div>
+                <div class="col-md-3 col-sm-12">
+            <a href="high-scores.html"  class="btn navigation-btn">Scores</a>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
