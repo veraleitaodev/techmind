@@ -1,239 +1,257 @@
  @import url('https://fonts.googleapis.com/css2?family=Imprima&family=Press+Start+2P&display=swap');
 
-  * {
-      padding: 0;
-      border: 0;
-      margin: 0;
-  }
+ * {
+     padding: 0;
+     border: 0;
+     margin: 0;
+ }
 
-  *,
-  *::before,
-  *::after {
-      box-sizing: border-box;
-  }
+ *,
+ *::before,
+ *::after {
+     box-sizing: border-box;
+ }
 
-  html {
-      scroll-behavior: smooth;
-      height: 100%;
-      width: 100%;
-      line-height: 1.15;
-      -webkit-text-size-adjust: 100%;
-      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  }
+ html {
+     scroll-behavior: smooth;
+     height: 100%;
+     width: 100%;
+     line-height: 1.15;
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ }
 
-  body {
-      height: 100%;
-      width: 100%;
-      font-family: Imprima, sans-serif;
-      color: white;
-      background-color: #2d1f54;
-  }
+ body {
+     height: 100%;
+     width: 100%;
+     font-family: Imprima, sans-serif;
+     color: white;
+     background-color: #2d1f54;
+ }
 
-  main {
-      height: 100vh;
-  }
+ main {
+     height: 100vh;
+ }
 
-  .content-container {
-      margin-top: 100px;
-  }
+ .content-container {
+     margin-top: 100px;
+ }
 
-  .logo {
-      font-family: 'Press Start 2P', sans-serif;
-  }
+ .logo {
+     font-family: 'Press Start 2P', sans-serif;
+ }
 
-  /*-- colours  (using !important to overwrite bootstrap settings) --*/
-  .background-color {
-      background-color: #2d1f54 !important;
-  }
-  
-
-  .dark-blue {
-      background-color: #113E5B !important;
-  }
-
-  .text-dark-blue {
-      color: #113E5B !important;
-  }
-
-  .background-light-blue {
-      background-color: #CBECF8 !important;
-  }
-
-  .text-light-blue {
-      color: #CBECF8 !important;
-  }
-
-  .text-purple {
-      color: #2d1f54 !important;
-  }
-
-  .background-blue {
-      background-color: #4595BD !important;
-  }
-
-  .text-blue {
-      color: #4595BD !important;
-  }
-
-  .background-yellow {
-      background-color: #FCF170 !important;
-  }
-
-  .text-yellow {
-      color: #FCF170 !important;
-  }
-
-/* GAME PLAY*/
-
-.home-btn {
-    font-size: 1.5em;
-}
-
-#audio-btn {
-    width: 1.6em;
-    height: 1.6em;
-    border-radius: 0.8em;
-    font-size: 1.5em;
-    color: #113e5b;
-    background-color: #FCF170;
-}
-
-@media only screen and (max-width: 769px) {
-    .content-container {
-        margin-top: 1em;
-        }
-  }
-
-#audio-btn:focus {
-    outline: none;
-}
-
-.hero-girl {
-    min-width: 15vw;
-    margin-top: 5vh;
-    border: solid 3px #4595bd;
-    border-radius: 5px;
-}
-
-.answers-row {
-    text-align: center;
-    margin: 0;
-}
-
-.ans-choice {
-    margin-top: 1.2em;
-    width: 30ch;
-    background-color: #FCF170;
-    color: #113e5b;
-    font-weight: 600;
-    border: solid 3px #4595bd;
-    border-radius: 10px;
-    white-space: normal;
-}
+ /*-- colours  (using !important to overwrite bootstrap settings) --*/
+ .background-color {
+     background-color: #2d1f54 !important;
+ }
 
 
-/* Correct/incorrect classes */
+ .dark-blue {
+     background-color: #113E5B !important;
+ }
+
+ .text-dark-blue {
+     color: #113E5B !important;
+ }
+
+ .background-light-blue {
+     background-color: #CBECF8 !important;
+ }
+
+ .text-light-blue {
+     color: #CBECF8 !important;
+ }
+
+ .text-purple {
+     color: #2d1f54 !important;
+ }
+
+ .background-blue {
+     background-color: #4595BD !important;
+ }
+
+ .text-blue {
+     color: #4595BD !important;
+ }
+
+ .background-yellow {
+     background-color: #FCF170 !important;
+ }
+
+ .text-yellow {
+     color: #FCF170 !important;
+ }
+
+ /*-- Hover --*/
+
+ a .btn-lg:hover {
+    color: #4595BD !important;
+    background-color: white !important;
+    font-size: 150%;
+    font-weight: 900;
+ }
+
+ nav a:hover {
+     color: #2d1f54 !important;
+ }
+ 
+ button#audio-btn:hover {
+     color: white;
+     background-color: #2d1f54;
+ }
+
+ /* GAME PLAY*/
+
+ .home-btn {
+     font-size: 1.5em;
+ }
+
+ #audio-btn {
+     width: 1.6em;
+     height: 1.6em;
+     border-radius: 0.8em;
+     font-size: 1.5em;
+     color: #113e5b;
+     background-color: #FCF170;
+ }
+
+ @media only screen and (max-width: 769px) {
+     .content-container {
+         margin-top: 1em;
+     }
+ }
+
+ #audio-btn:focus {
+     outline: none;
+ }
+
+ .hero-girl {
+     min-width: 15vw;
+     margin-top: 5vh;
+     border: solid 3px #4595bd;
+     border-radius: 5px;
+ }
+
+ .answers-row {
+     text-align: center;
+     margin: 0;
+ }
+
+ .ans-choice {
+     margin-top: 1.2em;
+     width: 30ch;
+     background-color: #FCF170;
+     color: #113e5b;
+     font-weight: 600;
+     border: solid 3px #4595bd;
+     border-radius: 10px;
+     white-space: normal;
+ }
 
 
-.btn.correct {
-    background-color: #008000;
-    color: #fff;
-}
-
-.btn.incorrect {
-    background-color: #ff0000;
-    color: #fff;
-}
+ /* Correct/incorrect classes */
 
 
-/* END GAME*/
+ .btn.correct {
+     background-color: #008000;
+     color: #fff;
+ }
 
-.end-heading {
-    color: #113e5b;
-    margin-top: 1em;
-    font-weight: 600;
-}
+ .btn.incorrect {
+     background-color: #ff0000;
+     color: #fff;
+ }
 
 
-.end-hero {
-    background-color: #fff;
-    margin-top: 2em;
-    max-width: 40vw;
-    border: solid 3px #4595bd;
-    border-radius: 10px;
-}
+ /* END GAME*/
 
-@media only screen and (max-width: 769px) {
-    .end-hero {
-        max-width: 70vw;
-    }
-  }
+ .end-heading {
+     color: #113e5b;
+     margin-top: 1em;
+     font-weight: 600;
+ }
 
-#end-score {
-    color: #113E5B;
-    padding-bottom: 1em;
-}
 
-#name-inst {
-    margin-top: 1em;
-    font-weight: 600;
-}
+ .end-hero {
+     background-color: #fff;
+     margin-top: 2em;
+     max-width: 40vw;
+     border: solid 3px #4595bd;
+     border-radius: 10px;
+ }
 
-input {
-    font-size: 1.2rem;
-    border: 3px solid #4595bd;
-    border-radius: 10px;
-    background-color: #FCF170;
-    color: #113e5b;
-    margin-right: .6em;
-    padding-left: .3em;
-}   
+ @media only screen and (max-width: 769px) {
+     .end-hero {
+         max-width: 70vw;
+     }
+ }
 
-input:focus {
-    outline: none;
-}
+ #end-score {
+     color: #113E5B;
+     padding-bottom: 1em;
+ }
 
-.submit-btn {
-    min-width: 8ch;
-    background-color: #FCF170;
-    color: #113e5b;
-    font-weight: 600;
-    border: solid 3px #4595bd;
-    border-radius: 10px;
-}
+ #name-inst {
+     margin-top: 1em;
+     font-weight: 600;
+ }
 
-.navigation-btn {
-    margin-top: 1.2em;
-    min-width: 15ch;
-    background-color: #FCF170;
-    color: #113e5b;
-    font-weight: 600;
-    border: solid 3px #4595bd;
-    border-radius: 10px;
-}
+ input {
+     font-size: 1.2rem;
+     border: 3px solid #4595bd;
+     border-radius: 10px;
+     background-color: #FCF170;
+     color: #113e5b;
+     margin-right: .6em;
+     padding-left: .3em;
+ }
 
-/* SCORES */
+ input:focus {
+     outline: none;
+ }
 
-.scores-container {
-    margin-top: 3em;
-    border-radius: 10px;
-    border: solid 5px #4595bd;
-    background-color: #CBECF8;
-}
+ .submit-btn {
+     min-width: 8ch;
+     background-color: #FCF170;
+     color: #113e5b;
+     font-weight: 600;
+     border: solid 3px #4595bd;
+     border-radius: 10px;
+ }
 
-.navigation-buttons {
-    text-align: center;
-    padding-bottom: 1em;
-}
+ .navigation-btn {
+     margin-top: 1.2em;
+     min-width: 15ch;
+     background-color: #FCF170;
+     color: #113e5b;
+     font-weight: 600;
+     border: solid 3px #4595bd;
+     border-radius: 10px;
+ }
 
-#scores-header {
-    margin-top: .5em;
-    text-align: center;
-    color: #113E5B;
-    font-weight: 600;
-}
+ /* SCORES */
 
-.table {
-    color: #113E5B;
-    text-align: center;
-}
+ .scores-container {
+     margin-top: 3em;
+     border-radius: 10px;
+     border: solid 5px #4595bd;
+     background-color: #CBECF8;
+ }
+
+ .navigation-buttons {
+     text-align: center;
+     padding-bottom: 1em;
+ }
+
+ #scores-header {
+     margin-top: .5em;
+     text-align: center;
+     color: #113E5B;
+     font-weight: 600;
+ }
+
+ .table {
+     color: #113E5B;
+     text-align: center;
+ }
