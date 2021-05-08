@@ -26,24 +26,24 @@
     <!-- second navbar -->
 
     <nav class="navbar background-blue">
-        <div class="col-4">
+        <div class="col-4 d-flex justify-content-center">
             <ul class="list-inline mr-2">
                 <li class="list-inline-item">
-                   <a class="btn text-white" id="game-to-home" href="index.html"><i class="fas fa-home"></i></a>
+                   <a class="text-white home-btn" id="game-to-home" href="index.html"><i class="fas fa-home"></i></a>
                 </li>
                 <li class="list-inline-item">
                     <button id="audio-btn" onclick="toggleAudio()"><i class="fas fa-volume-mute "></i></button>
                 </li>
             </ul>
         </div>
-        <div class="col-4">
+        <div class="col-4 d-flex justify-content-center">
             <ul class="list-inline mx-auto">
                 <li class="list-inline-item">
                     <h5 id="question-counter">Question 0</h5>
                 </li>
             </ul>
         </div>
-        <div class="col-4">
+        <div class="col-4 d-flex justify-content-center">
             <ul class="list-inline ml-2">
                 <li class="list-inline-item">
                     <p class="text-yellow"><i class="fas fa-star"></i></p>
@@ -60,12 +60,11 @@
         <div class="container background-color content-container">
            
             <div class="row h-100">
-
-                <div class="col-12 col-md-6 image-col align-self-end pb-3">
+                
+                <div class="col-12 col-md-6 image-col pb-3">
                     <div class="text-center">
-                        <img class="img-fluid" src="assets/images/hero-blonde-girl.jpg" alt="#" />
+                        <img class="hero-girl" src="assets/images/hero-blonde-girl.jpg" alt="#" />
                     </div>
-                    
                 </div>
 
                 <div class="col-12 col-md-6 qa-col">
@@ -88,7 +87,9 @@
                 </div>
 
             </div>
+
         </div>
+
     </main>
 
     <script src="assets/js/script.js"></script>
