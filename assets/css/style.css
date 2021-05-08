@@ -78,8 +78,43 @@
 
 /* GAME PLAY*/
 
+.home-btn {
+    font-size: 1.5em;
+}
 
-/* Correct/incoreect classes */
+#audio-btn {
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 0.8em;
+    font-size: 1.5em;
+    color: #113e5b;
+    background-color: #FCF170;
+}
+
+#audio-btn:focus {
+    outline: none;
+}
+
+.hero-girl {
+    min-width: 15vw;
+    margin-top: 5vh;
+    border: solid 3px #4595bd;
+    border-radius: 5px;
+}
+
+.ans-choice {
+    margin-top: 1.2em;
+    min-width: 60ch;
+    background-color: #FCF170;
+    color: #113e5b;
+    font-weight: 600;
+    border: solid 3px #4595bd;
+    border-radius: 10px;
+}
+
+
+/* Correct/incorrect classes */
+
 
 .btn.correct {
     background-color: #008000;
