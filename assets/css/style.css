@@ -205,3 +205,29 @@ input:focus {
     border: solid 3px #4595bd;
     border-radius: 10px;
 }
+
+/* SCORES */
+
+.scores-container {
+    margin-top: 3em;
+    border-radius: 10px;
+    border: solid 5px #4595bd;
+    background-color: #CBECF8;
+}
+
+.navigation-buttons {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#scores-header {
+    margin-top: .5em;
+    text-align: center;
+    color: #113E5B;
+    font-weight: 600;
+}
+
+.table {
+    color: #113E5B;
+    text-align: center;
+}
