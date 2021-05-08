@@ -39,6 +39,7 @@
   .background-color {
       background-color: #2d1f54 !important;
   }
+  
 
   .dark-blue {
       background-color: #113E5B !important;
@@ -124,4 +125,65 @@
 .btn.incorrect {
     background-color: #ff0000;
     color: #fff;
+}
+
+
+/* END GAME*/
+
+.end-heading {
+    color: #113e5b;
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+
+.end-hero {
+    background-color: #fff;
+    margin-top: 2em;
+    max-width: 30vw;
+    border: solid 3px #4595bd;
+    border-radius: 10px;
+}
+
+#end-score {
+    color: #113E5B;
+    padding-bottom: 1em;
+}
+
+#name-inst {
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+input {
+    font-size: 1.2rem;
+    border: 3px solid #4595bd;
+    border-radius: 10px;
+    background-color: #FCF170;
+    color: #113e5b;
+    margin-right: .6em;
+    padding-left: .3em;
+}   
+
+input:focus {
+    outline: none;
+}
+
+.submit-btn {
+    min-width: 8ch;
+    background-color: #FCF170;
+    color: #113e5b;
+    font-weight: 600;
+    border: solid 3px #4595bd;
+    border-radius: 10px;
+}
+
+.navigation-btn {
+    margin-top: 1.2em;
+    min-width: 15ch;
+    background-color: #FCF170;
+    color: #113e5b;
+    font-weight: 600;
+    border: solid 3px #4595bd;
+    border-radius: 10px;
 }

@@ -9,23 +9,38 @@
     <link rel="icon" href="assets/images/favicon.png">
 </head>
 <body>
+
+    <!-- top navbar with logo -->
+    <nav class="navbar background-blue border-bottom border-white">
+        <a class="navbar-brand text-purple mx-auto" href="index.html">TechMind</a>
+    </nav>
+    <div class="container end-hero">
+        <div class="d-flex justify-content-center">
+            <h3 class="end-heading">Well Done!</h3>
+        </div>
+        <div class="d-flex justify-content-center">
+            <img src="assets/images/hero-pink-girl.jpg" alt="#">
+        </div>
+        <div>
+            <h4 id="end-score" class="d-flex justify-content-center">Final Score : 0</h4>
+            
+        </div>
+    </div>
     <div class="game-over container">
-        <h1 id="end-heading">Game Over</h1>
-        <h3 id="end-score">Final Score : 0</h3>
-        <p id="name-inst">Enter your name below to join the score board:</p>
+        <p id="name-inst" class="d-flex justify-content-center">Enter your name below to join the score board:</p>
         <form class="row justify-content-center">
             <input type="text" name="username" id="username" placeholder="Your Name!" required>
             <input type="submit" class="btn submit-btn" id="save-high-score" onclick="saveHighScore(event)" value="Save" disabled>
         </form>
-        <div class="navigation-buttons row justify-content-center">
+        <div class="navigation-buttons row d-flex justify-content-center">
             <div class="col-md-3 col-sm-12">
-                <a href="rules.html" class="btn navigation-btn">Rules</a>
+                <a href="rules.html" class="btn navigation-btn d-flex justify-content-center">Rules</a>
             </div>
             <div class="col-md-3 col-sm-12">
-                <a href="quiz.html" class="btn navigation-btn">Replay</a>
+                <a href="quiz.html" class="btn navigation-btn d-flex justify-content-center">Replay</a>
             </div>
                 <div class="col-md-3 col-sm-12">
-            <a href="high-scores.html"  class="btn navigation-btn">Scores</a>
+            <a href="high-scores.html"  class="btn navigation-btn d-flex justify-content-center">Scores</a>
             </div>
         </div>
     </div>
