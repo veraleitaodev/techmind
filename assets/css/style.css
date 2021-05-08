@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Imprima&family=Press+Start+2P&display=swap');
 
   * {
       padding: 0;
@@ -35,6 +35,10 @@
 
   .content-container {
       margin-top: 100px;
+  }
+
+  .logo {
+      font-family: 'Press Start 2P', sans-serif;
   }
 
   /*-- colours  (using !important to overwrite bootstrap settings) --*/
