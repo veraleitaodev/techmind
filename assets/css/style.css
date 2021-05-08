@@ -1,3 +1,5 @@
+  @import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
   * {
       padding: 0;
       border: 0;
@@ -22,7 +24,7 @@
   body {
       height: 100%;
       width: 100%;
-      font-family: sans-serif;
+      font-family: Imprima, sans-serif;
       color: white;
       background-color: #2d1f54;
   }
