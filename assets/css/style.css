@@ -149,6 +149,11 @@
      white-space: normal;
  }
 
+ /* Fact row */
+
+ #factContentRow {
+     display: none;
+ }
 
  /* Correct/incorrect classes */
 
