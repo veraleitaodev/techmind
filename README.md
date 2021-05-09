@@ -91,24 +91,24 @@ for fonts used in the project.
 
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) for testing code health, accessibility, speed and search engine optimisation.
 
-# Information Architechture
-
-## Data Schema
-
-
 # Deployment
+
+Deployed via Github pages but selecting the master branch.
+
+#Testing
+
+Google Lighthouse was used to test accessibility scores and off the back of this some of the colour's were changed to improve contrast.  Links were also given discernable names and this will help those users using screenreaders.
 
 # Credits
 
 ## Content
+Content written by Amy O'Shea, Maria Lundgren, Mark Johnston, Moira Hartigan and Vera Leitao.
 
 ## Media
 Images were sourced through freepic.com
-
-## Influences
-
 
 ## Acknowledgements
 
 ## Disclaimer
 
+For educational purposes only.
