@@ -99,6 +99,23 @@ Deployed via Github pages but selecting the master branch.
 
 Google Lighthouse was used to test accessibility scores and off the back of this some of the colour's were changed to improve contrast.  Links were also given discernable names and this will help those users using screenreaders.
 
+##Responsiveness
+Chrome DevTools was used to test the responsiveness. 
+
+The following devices was tested:
+- Moto 4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5/SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+- iPad
+- iPad Pro
+- Surface Duo
+- Galaxy Fold
+
 # Credits
 
 ## Content
