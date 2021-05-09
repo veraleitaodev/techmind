@@ -180,6 +180,11 @@
      white-space: normal;
  }
 
+ .fact {
+    border: solid 3px #4595bd;
+    border-radius: 10px;
+ }
+
  /* Fact row */
 
  #factContentRow {
