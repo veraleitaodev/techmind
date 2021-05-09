@@ -282,3 +282,8 @@
      color: #113E5B;
      text-align: center;
  }
+
+ /* RULES */ 
+ .rules-card {
+     margin: 0 15px 0 15px;
+ }
