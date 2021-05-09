@@ -41,6 +41,12 @@
      font-family: 'Press Start 2P', sans-serif;
  }
 
+ @media only screen and (max-width: 769px) {
+    .logo {
+        font-size: 200%;
+    }
+}
+
  /*-- colours  (using !important to overwrite bootstrap settings) --*/
  .background-color {
      background-color: #2d1f54 !important;
