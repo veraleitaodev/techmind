@@ -1,8 +1,293 @@
-.background-color {
-    background-color: #2d1f54;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Imprima&family=Press+Start+2P&display=swap');
 
-.dark-blue {
-    background-color: #113E5B;
-}
+ * {
+     padding: 0;
+     border: 0;
+     margin: 0;
+ }
 
+ *,
+ *::before,
+ *::after {
+     box-sizing: border-box;
+ }
+
+ html {
+     scroll-behavior: smooth;
+     height: 100%;
+     width: 100%;
+     line-height: 1.15;
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ }
+
+ body {
+     height: 100%;
+     width: 100%;
+     font-family: Imprima, sans-serif;
+     color: white;
+     background-color: #2d1f54;
+ }
+
+ main {
+     height: 100vh;
+ }
+
+ .content-container {
+     margin-top: 100px;
+ }
+
+ .logo {
+     font-family: 'Press Start 2P', sans-serif;
+ }
+
+ /*-- colours  (using !important to overwrite bootstrap settings) --*/
+ .background-color {
+     background-color: #2d1f54 !important;
+ }
+
+
+ .dark-blue {
+     background-color: #113E5B !important;
+ }
+
+ .text-dark-blue {
+     color: #113E5B !important;
+ }
+
+ .background-light-blue {
+     background-color: #CBECF8 !important;
+ }
+
+ .text-light-blue {
+     color: #CBECF8 !important;
+ }
+
+ .text-purple {
+     color: #2d1f54 !important;
+ }
+
+ .background-blue {
+     background-color: #4595BD !important;
+ }
+
+ .text-blue {
+     color: #4595BD !important;
+ }
+
+ .background-yellow {
+     background-color: #FCF170 !important;
+ }
+
+ .text-yellow {
+     color: #FCF170 !important;
+ }
+
+ a .btn-lg {
+    color: #2d1f54 !important;
+    background-color: #FCF170 !important;
+    border: solid 3px #4595bd;
+ }
+
+ /*-- Hover --*/
+
+ a .btn-lg:hover {
+    color: #fff;
+    background-color: #4595bd !important;
+    border: solid 3px #FCF170;
+ }
+
+ button#nextBtn.btn:hover,
+ a.btn.navigation-btn:hover {
+     color: #4595BD !important;
+     background-color: white !important;
+     font-size: 120%;
+     font-weight: 900;
+ }
+
+ nav a:hover {
+     color: #2d1f54 !important;
+ }
+
+ button#audio-btn:hover {
+     color: white;
+     background-color: #2d1f54;
+ }
+
+ button.btn.ans-choice:hover {
+     font-size: 150%;
+ }
+
+ /* GAME PLAY*/
+
+ .home-btn {
+     font-size: 1.5em;
+ }
+
+
+ #audio-btn {
+     width: 1.6em;
+     height: 1.6em;
+     border-radius: 0.8em;
+     font-size: 1.5em;
+     color: #fff;
+ }
+
+ a:link{
+    text-decoration: none!important;
+  }
+
+
+ #lightbulbBtn {
+     width: 1.6em;
+     height: 1.6em;
+     border-radius: 0.8em;
+     font-size: 1.5em;
+     background-color: white;
+     color: #FCF170;
+ }
+
+ @media only screen and (max-width: 769px) {
+     .content-container {
+         margin-top: 1em;
+     }
+ }
+
+ #audio-btn:focus {
+     outline: none;
+ }
+
+ .hero-girl {
+     min-width: 15vw;
+     margin-top: 5vh;
+     border: solid 3px #4595bd;
+     border-radius: 5px;
+ }
+
+ .answers-row {
+     text-align: center;
+     margin: 0;
+ }
+
+ .ans-choice {
+     margin-top: 1.2em;
+     width: 30ch;
+     background-color: #FCF170;
+     color: #113e5b;
+     font-weight: 600;
+     border: solid 3px #4595bd;
+     border-radius: 10px;
+     white-space: normal;
+ }
+
+ /* Fact row */
+
+ #factContentRow {
+     display: none;
+ }
+
+ /* Correct/incorrect classes */
+
+
+ .btn.correct {
+     background-color: #008000;
+     color: #fff;
+ }
+
+ .btn.incorrect {
+     background-color: #ff0000;
+     color: #fff;
+ }
+
+
+ /* END GAME*/
+
+ .end-heading {
+     color: #113e5b;
+     margin-top: 1em;
+     font-weight: 600;
+ }
+
+
+ .end-hero {
+     background-color: #fff;
+     margin-top: 2em;
+     max-width: 40vw;
+     border: solid 3px #4595bd;
+     border-radius: 10px;
+ }
+
+ @media only screen and (max-width: 769px) {
+     .end-hero {
+         max-width: 70vw;
+     }
+ }
+
+ #end-score {
+     color: #113E5B;
+     padding-bottom: 1em;
+ }
+
+ #name-inst {
+     margin-top: 1em;
+     font-weight: 600;
+ }
+
+ input {
+     font-size: 1.2rem;
+     border: 3px solid #4595bd;
+     border-radius: 10px;
+     background-color: #FCF170;
+     color: #113e5b;
+     margin-right: .6em;
+     padding-left: .3em;
+ }
+
+ input:focus {
+     outline: none;
+ }
+
+ .submit-btn {
+     min-width: 8ch;
+     background-color: #FCF170;
+     color: #113e5b;
+     font-weight: 600;
+     border: solid 3px #4595bd;
+     border-radius: 10px;
+ }
+
+ .navigation-btn {
+     margin-top: 1.2em;
+     min-width: 15ch;
+     background-color: #FCF170;
+     color: #113e5b;
+     font-weight: 600;
+     border: solid 3px #4595bd;
+     border-radius: 10px;
+ }
+
+ /* SCORES */
+
+ .scores-container {
+     margin-top: 3em;
+     border-radius: 10px;
+     border: solid 5px #4595bd;
+     background-color: #CBECF8;
+ }
+
+ .navigation-buttons {
+     text-align: center;
+     padding-bottom: 1em;
+ }
+
+ #scores-header {
+     margin-top: .5em;
+     text-align: center;
+     color: #113E5B;
+     font-weight: 600;
+ }
+
+ .table {
+     color: #113E5B;
+     text-align: center;
+ }

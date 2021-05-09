@@ -1,14 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Techmind - Quiz Page</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="icon" href="assets/images/favicon.png">
+    <script src="https://kit.fontawesome.com/fc05d49b22.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" type="text/css">
+    <title>Techmind - Quiz Page</title>
 </head>
+
 <body>
-    
+    <!-- top navbar with logo -->
+    <nav class="navbar background-blue border-bottom border-white">
+        <a class="navbar-brand logo text-purple mx-auto" href="index.html">TechMind</a>
+    </nav>
+
+    <!-- second navbar -->
+
+    <nav class="navbar background-blue container-fluid">
+        <div class="col-sm-4 d-flex justify-content-center">
+            <ul class="list-inline mr-2">
+                <li class="list-inline-item text-center">
+                    <a class="text-white home-btn text-decoration-none" id="game-to-home" href="index.html">
+                        <i class="fas fa-home"></i>
+                        <p>home</p>
+                    </a>
+                </li>
+                <li class="list-inline-item text-center">
+                    <a class=" text-white text-decoration-none" href="#" id="audio-btn" onclick="toggleAudio()">
+                        <i class="fas fa-volume-mute "></i>
+                        <p>on/off</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-center">
+            <ul class="list-inline mx-auto">
+                <li class="list-inline-item">
+                    <h5 id="question-counter">Question 0</h5>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-center">
+            <ul class="list-inline ml-2">
+                <li class="list-inline-item">
+                    <p class="text-yellow"><i class="fas fa-star"></i></p>
+                </li>
+                <li class="list-inline-item">
+                    <h5 class="text-white" id="current-score">Score: 0</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="container background-color content-container">
+            
+            <div class="row" id="quizContentRow">
+
+                <div class="col-12 col-md-4 image-col pb-3">
+                    <div class="text-center">
+                        <img class="hero-girl" id="image" src="assets\images\hero-blonde-girl.jpg" alt="image hero" />
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-8 qa-col">
+                    <div class="row question-row">
+                        <div class="col-12">
+                            <h2 class="text-center" id="question">"current question"</h2>
+                        </div>
+                    </div>
+                    <div class="row answers-row">
+                        <div class="col-12 text-center">
+                            <button class="btn ans-choice" data-number="1">Answer 1</button>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn ans-choice" data-number="2">Answer 2</button>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn ans-choice" data-number="3">Answer 3</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Fact row is hidden by default, once answer is selected, quiz row is hidden and fact row visible -->
+            <div class="row" id="factContentRow">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="text-white">FACT!  <i class="fas fa-lightbulb text-yellow fa-sm"></i></h2>
+                        </div>
+                    </div>
+                    <div class="row py-3 d-flex justify-content-center">
+                        <div class="card col-lg-6">
+                            <div class="card-body">
+                                <p class="lead text-center text-purple" id="fact"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-5">
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="button" class="btn btn-lg text-white dark-blue" id="nextBtn">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
