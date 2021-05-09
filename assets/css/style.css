@@ -24,7 +24,7 @@
  body {
      height: 100%;
      width: 100%;
-     font-family: Imprima, sans-serif;
+     font-family: 'Imprima', sans-serif;
      color: white;
      background-color: #2d1f54;
  }
@@ -51,7 +51,6 @@
  .background-color {
      background-color: #2d1f54 !important;
  }
-
 
  .dark-blue {
      background-color: #113E5B !important;
@@ -121,7 +120,7 @@
  }
 
  button.btn.ans-choice:hover {
-     font-size: 150%;
+     font-size: 110%;
  }
 
  /* GAME PLAY*/
@@ -186,6 +185,10 @@
      border-radius: 10px;
      white-space: normal;
  }
+/* removes hover state when new question loads */
+.ans-choice:focus {
+     font-size: 100%;
+ }
 
  .fact {
     border: solid 3px #4595bd;
@@ -211,7 +214,6 @@
      color: #fff;
  }
 
-
  /* END GAME*/
 
  .end-heading {
@@ -219,7 +221,6 @@
      margin-top: 1em;
      font-weight: 600;
  }
-
 
  .end-hero {
      background-color: #fff;
