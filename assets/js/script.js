@@ -59,10 +59,10 @@
  function toggleAudio() {
      if (music === "off") {
          music = "on";
-         audioBtn.innerHTML = `<i class="fas fa-volume-up"></i>`;
+         audioBtn.innerHTML = `<i class="fas fa-volume-up"></i><p>on/off</p>`;
      } else {
          music = "off";
-         audioBtn.innerHTML = `<i class="fas fa-volume-mute"></i>`;
+         audioBtn.innerHTML = `<i class="fas fa-volume-mute"></i><p>on/off</p>`;
      }
  }
  
