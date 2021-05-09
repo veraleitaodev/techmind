@@ -4,6 +4,8 @@
 
 The idea is to create a fun learning environment aimed at children of any gender aged 10-13 with a focus on those who identify as women’s role in tech.
 
+Link to the Live Site: https://markj0hnst0n.github.io/techmind/
+
 # UX
 
 ## User Stories
