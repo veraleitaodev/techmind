@@ -4,6 +4,7 @@
  * GENERAL VARIABLES
  */
  const question = document.getElementById("question");
+ const fact = document.getElementById("fact");
  const choices = Array.from(document.getElementsByClassName("ans-choice"));
  const correctAnsBonus = 1;
  const maxQuestions = 5;
@@ -93,6 +94,10 @@
      if (question !== null) {
          question.innerText = currentQuestion.question;
      }
+
+     if (fact !== null) {
+        fact.innerText = currentQuestion.fact;
+    }
  
      //Display all answer choices in game
      choices.forEach(choice => {
