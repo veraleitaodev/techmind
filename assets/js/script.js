@@ -22,7 +22,7 @@ const incorrectAudio = new Audio("assets/audio/wrong-sound.m4a");
 const audioBtn = document.getElementById("audio-btn");
 const quizContentRow = document.getElementById("quizContentRow");
 const factContentRow = document.getElementById("factContentRow");
-const fact = document.getElementById("fact")
+const fact = document.getElementById("fact");
 
 let availableQuestions = [];
 let currentQuestion = {};
@@ -97,6 +97,7 @@ function getNewQuestion() {
     currentQuestion = availableQuestions[questionIndex];
     if (question !== null) {
         console.log("getNewQuestion randomized order of questions")
+        document.getElementById('image').src=currentQuestion.image;
         question.innerText = currentQuestion.question;
     }
 
